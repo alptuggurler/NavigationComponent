@@ -21,7 +21,9 @@ class AnasayfaFragment : Fragment() {
         binding.buttonGitX.setOnClickListener {
             Navigation.findNavController(it).navigate(R.id.anasayfaToSayfaX)
         }
-
+        binding.buttonGitHesap.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.anasayfaToHesap)
+        }
 
         return binding.root
     }

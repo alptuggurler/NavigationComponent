@@ -16,6 +16,9 @@
         <action
             android:id="@+id/anasayfaToSayfaX"
             app:destination="@id/sayfaXFragment" />
+        <action
+            android:id="@+id/anasayfaToHesap"
+            app:destination="@id/hesapMakinesiFragment" />
     </fragment>
     <fragment
         android:id="@+id/sayfaAFragment"
@@ -51,4 +54,9 @@
         android:name="com.example.navigationcomponentodev.fragments.SayfaYFragment"
         android:label="fragment_sayfay"
         tools:layout="@layout/fragment_sayfa_y" />
+    <fragment
+        android:id="@+id/hesapMakinesiFragment"
+        android:name="com.example.navigationcomponentodev.fragments.HesapMakinesiFragment"
+        android:label="fragment_hesap_makinesi"
+        tools:layout="@layout/fragment_hesap_makinesi" />
 </navigation>
